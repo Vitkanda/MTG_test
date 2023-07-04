@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #332f2f;
+    border-bottom: 1px solid #dee2e6;
+    color: #fff
+  }
+  
+  header div {
+    display: flex;
+    align-items: center;
+  }
+  
+  header select {
+    margin-right: 20px;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+
+  
+  main div {
+    border: 1px solid #dee2e6;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #757679;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #D1D2D3;
+  }
+
+  .active-page {
+    background-color: #D1D2D3;
+  }
+
+  .ReviewCard{
+    background-color: #ffb16b;
+  }
+
+.review-card-name {
+  margin-bottom: 10px;  
+}
+
+.review-card-review {
+  margin-bottom: 10px;  
+}
