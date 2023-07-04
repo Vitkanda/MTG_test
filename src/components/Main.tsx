@@ -32,7 +32,7 @@ class Main extends Component<MainProps, MainState> {
   componentDidUpdate(prevProps: MainProps) {
     if (this.props.lang !== prevProps.lang) {
       this.props.fetchReviews(this.props.lang);
-      this.setState({ currentPage: 1 });  // reset to page 1 when language changes
+      this.setState({ currentPage: 1 }); 
     }
   }
 
